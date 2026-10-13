@@ -1,0 +1,6 @@
+{
+  "name": "CRT BOOKS",
+  "description": "Leia. Ouça. Evolua. Plataforma inteligente de conhecimento, leitura, áudio e desenvolvimento pessoal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="maskBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E172A" />
+      <stop offset="55%" stop-color="#07090E" />
+      <stop offset="100%" stop-color="#05070B" />
+    </linearGradient>
+    <linearGradient id="maskCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <!-- Full-bleed background for Android maskable safe zone -->
+  <rect width="512" height="512" fill="url(#maskBg)" />
+  <!-- Safe-zone artwork kept strictly within central 72% circle (padding >= 14% all sides) -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <path d="M256 150 C216 130 154 130 112 146 L112 342 C154 326 216 326 256 346 C296 326 358 326 400 342 L400 146 C358 130 296 130 256 150 Z" fill="none" stroke="url(#maskCyan)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="256" y1="150" x2="256" y2="346" stroke="url(#maskCyan)" stroke-width="22" stroke-linecap="round" />
+    <path d="M168 100 C220 68 292 68 344 100" fill="none" stroke="#22D3EE" stroke-width="18" stroke-linecap="round" />
+    <circle cx="256" cy="84" r="14" fill="#67E8F9" />
+    <text x="256" y="424" text-anchor="middle" fill="#F8FAFC" font-family="sans-serif" font-weight="800" font-size="52" letter-spacing="10">CRT</text>
+  </g>
+</svg>

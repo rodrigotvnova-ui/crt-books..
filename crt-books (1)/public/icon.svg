@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E172A" />
+      <stop offset="55%" stop-color="#07090E" />
+      <stop offset="100%" stop-color="#05070B" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="4" />
+  <!-- Open Book Pages -->
+  <path d="M256 156 C216 136 154 136 112 152 L112 348 C154 332 216 332 256 352 C296 332 358 332 400 348 L400 152 C358 136 296 136 256 156 Z" fill="none" stroke="url(#cyanGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="256" y1="156" x2="256" y2="352" stroke="url(#cyanGrad)" stroke-width="20" stroke-linecap="round" />
+  <!-- Audio / Evolution Arc -->
+  <path d="M168 106 C220 74 292 74 344 106" fill="none" stroke="#22D3EE" stroke-width="16" stroke-linecap="round" stroke-opacity="0.85" />
+  <circle cx="256" cy="92" r="12" fill="#67E8F9" />
+  <!-- CRT Monogram Footer -->
+  <text x="256" y="428" text-anchor="middle" fill="#F8FAFC" font-family="sans-serif" font-weight="800" font-size="48" letter-spacing="10">CRT</text>
+</svg>
